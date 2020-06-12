@@ -11,3 +11,11 @@ let mondayWork = function (MyActivity1 = "go to the office") {
 }
 
 mondayWork('Play basketball with friend')
+
+function wrapAdjective(mySymbol = "*"){
+  return function(mySpecial = "special"){
+    return `You are ${mySymbol} ${mySpecial}`
+  }
+}
+
+wrapAdjective()();
