@@ -14,7 +14,7 @@ mondayWork('Play basketball with friend')
 
 function wrapAdjective(mySymbol = "*"){
   return function(mySpecial = "special"){
-    return `You are ${mySymbol} ${mySpecial}`
+    return `You are ${mySymbol} ${mySpecial} ${mySymbol}!`
   }
 }
 
